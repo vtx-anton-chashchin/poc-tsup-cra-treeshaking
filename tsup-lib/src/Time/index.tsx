@@ -5,5 +5,10 @@ type Props = {
 }
 
 export const Time = (props: Props) => {
-  return <div>{format(props.date, 'HH:mm:ss:SSS')}</div>
+  return (
+    <>
+      <div>{format(props.date, 'HH:mm:ss:SSS')}</div>
+      {/* <div>{formatDistanceToNow(props.date)}</div> */}
+    </>
+  )
 }
