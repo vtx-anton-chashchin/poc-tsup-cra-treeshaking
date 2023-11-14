@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 
-import { Button, Time } from "tsup-lib";
+import { Button } from "tsup-lib";
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
           Learn React
         </a>
         <Button>Tsup lib button</Button>
-        <Time date={new Date()} />
+        {/* <Time date={new Date()} /> */}
       </header>
     </div>
   );
